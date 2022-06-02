@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devA": "nodemon src/admin/server.js",
-    "devU": "nodemon src/users/server.js"
+    "devU": "nodemon src/users/server.js",
+    "start": "node src/users/server.js"
   },
   "keywords": [],
   "author": "",
