@@ -14,8 +14,8 @@ module.exports = {
             PhoneNumber: ${phoneNumber}
             `
 
-            const token = "5437425843:AAF1_Y2_qf7_y56g33NJYk5c2utKL77WeBE"
-            const chatId = 651985244;
+            const token = "botToken"
+            const chatId = myChatId;
             const msg = text
 
             let url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${msg}`
